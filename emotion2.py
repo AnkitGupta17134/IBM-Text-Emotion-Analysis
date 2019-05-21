@@ -9,7 +9,7 @@ natural_language_understanding = NaturalLanguageUnderstandingV1(
     url='https://gateway-lon.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-11-16')
 
 response = natural_language_understanding.analyze(
-    text='I Love Deepika. I hate curd. He is stupid.',
+    text='I Love IBM. There servies are cheap and the best so leave the rest.',
     features=Features(
         entities=EntitiesOptions(emotion=True, sentiment=True, limit=2),
         keywords=KeywordsOptions(emotion=True, sentiment=True,
